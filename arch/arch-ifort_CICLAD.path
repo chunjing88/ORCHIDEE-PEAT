@@ -1,0 +1,6 @@
+NETCDF_LIBDIR="/usr/sw-cluster/apps/netcdf-with-parallel/lib -lnetcdff -lnetcdf"
+NETCDF_INCDIR="/usr/sw-cluster/apps/netcdf-with-parallel/include"
+IOIPSL_INCDIR=../../../lib
+IOIPSL_LIBDIR=../../../lib
+XIOS_INCDIR=${ORCHDIR}/../XIOS/inc
+XIOS_LIBDIR="${ORCHDIR}/../XIOS/lib -lxios"
